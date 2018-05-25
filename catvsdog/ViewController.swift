@@ -29,8 +29,6 @@ class ViewController: UIViewController {
         //scorefromSlider.text = "\(Int(sender.value))"
     }
     @IBAction func selectPressButton(_ sender: UIButton) {
-        //不給scorefromSlider.text 預設值會錯誤！無值可轉
-        //scorefromSlider.text = "0"
         var ageInt:Int
         var scoreInt:Int
         ageInt = Int(ageTextField.text!)!
